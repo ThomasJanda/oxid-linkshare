@@ -1,0 +1,24 @@
+{
+  "name": "rs/linkshare",
+  "description": "linkshare",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://www.reisacher-software.de",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "rs/linkshare"
+    }
+  },
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "rs\\linkshare\\": "../../../source/modules/rs/linkshare"
+    }
+  }
+}

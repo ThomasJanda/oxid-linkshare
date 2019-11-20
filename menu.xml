@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmanageprod">
+            <SUBMENU id="mxarticles" cl="article" list="article_list">
+                <TAB id="tbcl_rs_linkshare_article" cl="rs_linkshare_article" />
+            </SUBMENU>
+            <SUBMENU id="mxcategories" cl="category" list="category_list">
+                <TAB id="tbcl_rs_linkshare_category" cl="rs_linkshare_category" />
+            </SUBMENU>
+        </MAINMENU>
+        <MAINMENU id="mxcustnews">
+            <SUBMENU id="mxcontent" cl="admin_content" list="content_list">
+                <TAB id="tbcl_rs_linkshare_content" cl="rs_linkshare_content" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
