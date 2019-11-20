@@ -25,20 +25,20 @@ Module was created for Oxid 6.x
 
 4. Create table and update views
 
-    CREATE TABLE `rs_linkshare` (
-     `oxid` char(32) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
-     `rstype` enum('article','category','content') NOT NULL DEFAULT 'article',
-     `rstitle` varchar(250) DEFAULT NULL,
-     `rstitle_1` varchar(250) DEFAULT NULL,
-     `rstitle_2` varchar(250) DEFAULT NULL,
-     `rsdescription` varchar(250) DEFAULT NULL,
-     `rsdescription_1` varchar(250) DEFAULT NULL,
-     `rsdescription_2` varchar(250) DEFAULT NULL,
-     `rsimage` varchar(250) DEFAULT NULL,
-     `rsimage_1` varchar(250) DEFAULT NULL,
-     `rsimage_2` varchar(250) DEFAULT NULL,
-     PRIMARY KEY (`oxid`)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        CREATE TABLE `rs_linkshare` (
+         `oxid` char(32) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+         `rstype` enum('article','category','content') NOT NULL DEFAULT 'article',
+         `rstitle` varchar(250) DEFAULT NULL,
+         `rstitle_1` varchar(250) DEFAULT NULL,
+         `rstitle_2` varchar(250) DEFAULT NULL,
+         `rsdescription` varchar(250) DEFAULT NULL,
+         `rsdescription_1` varchar(250) DEFAULT NULL,
+         `rsdescription_2` varchar(250) DEFAULT NULL,
+         `rsimage` varchar(250) DEFAULT NULL,
+         `rsimage_1` varchar(250) DEFAULT NULL,
+         `rsimage_2` varchar(250) DEFAULT NULL,
+         PRIMARY KEY (`oxid`)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 5. Enable module in the oxid admin area, Extensions => Modules
 
