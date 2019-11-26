@@ -1,5 +1,8 @@
 [{*$smarty.block.parent*}]
 
+<!-- LINKSHARE -->
+
+[{assign var=oConfig value=$oView->getConfig()}]
 [{assign var=oLinkShare value=false}]
 [{assign var=sTitle value=$sPageTitle}]
 [{assign var=sDescription value=$oView->getMetaDescription()}]
@@ -33,7 +36,7 @@
         [{assign var=sDescription value=$oLinkShare->rs_linkshare__rsdescription->value}]
     [{/if}]
     [{if $oLinkShare->rs_linkshare__rsimage->value != ""}]
-        [{assign var=sLink value=$oLinkShare->getUrlFile()}]
+        [{assign var=sImage value=$oLinkShare->getUrlFile()}]
     [{/if}]
 [{/if}]
 
